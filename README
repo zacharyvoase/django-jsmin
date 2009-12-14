@@ -19,7 +19,6 @@ Minification can also obfuscate your code (making it difficult for third parties
 
 *   Install the `django-jsmin` library:
 
-        :::bash
         $ pip install django-jsmin # OR
         $ easy_install django-jsmin
     
@@ -29,7 +28,7 @@ Minification can also obfuscate your code (making it difficult for third parties
 
 *   Add the necessary settings to your `settings.py` file:
 
-        #!python
+        ## somewhere in settings.py
         JSMIN_ROOT = '/path/to/my/project/'
         
         # JSMIN_INPUT contains a list of all the input files and URLs.
@@ -64,7 +63,6 @@ setuptools when you install `django-jsmin`.
 
 Usage is relatively simple:
 
-    :::bash
     $ djboss --log-level DEBUG jsmin
     Saving http://ajax.googleapis.com/.../jquery.js to a temporary file
     Saved http://ajax.googleapis.com/.../jquery.js to tmpN7MAsi
