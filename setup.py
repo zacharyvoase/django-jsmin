@@ -32,7 +32,7 @@ setup(
     version          = get_version(),
     author           = "Zachary Voase",
     author_email     = "zacharyvoase@me.com",
-    url              = 'http://bitbucket.org/zacharyvoase/django-jsmin',
+    url              = 'http://github.com/zacharyvoase/django-jsmin',
     description      = "JavaScript library minification for Django.",
     packages         = find_packages(where='src'),
     package_dir      = {'': 'src'},

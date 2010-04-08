@@ -1,5 +1,3 @@
-<!--*-markdown-*-->
-
 # `django-jsmin`
 
 `django-jsmin` is a reusable application for [Django][] which simplifies and automates the process of [minifying][] your JavaScript libraries.
@@ -40,7 +38,7 @@ Minification can also obfuscate your code (making it difficult for third parties
         
         JSMIN_OUTPUT = 'media/js/project.min.js'
     
-    More information on the available settings can be found [here](http://bitbucket.org/zacharyvoase/django-jsmin/src/tip/doc/wiki/settings.md).
+    More information on the available settings can be found [here](http://github.com/zacharyvoase/django-jsmin/blob/master/doc/wiki/settings.md).
 
 
 ## `DEBUG` mode
@@ -59,7 +57,7 @@ output of `djboss jsmin --help` for more information.
 running Django management commands. This will be installed automatically by
 setuptools when you install `django-jsmin`.
 
-  [djboss]: http://bitbucket.org/zacharyvoase/django-boss
+  [djboss]: http://github.com/zacharyvoase/django-boss
 
 Usage is relatively simple:
 
